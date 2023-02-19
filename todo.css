@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:lightblue;
+}
+div{
+    height: 200px;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+div>h1{
+    padding-top: 30px;
+    font-weight: bold;
+}
+div>input{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+div>input:hover{
+    border: 2px solid black;
+}
+div>button{
+    height: 35px;
+    width: 120px;
+    margin-left: 20px;
+    font-weight: bold;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+div>button:hover{
+    border: 1px solid black;
+}
