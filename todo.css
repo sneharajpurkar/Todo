@@ -1,43 +1,46 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color:lightblue;
-}
-div{
-    height: 200px;
-    width: 30%;
-    border-radius: 20px;
-    text-align: center;
-    background-color: white;
-    margin-top: 100px;
-    margin-left: 500px;
-}
-div>h1{
-    padding-top: 30px;
-    font-weight: bold;
-}
-div>input{
-    width: 250px;
-    height: 30px;
-    outline: none;
-    margin-top: 20px;
-    cursor: pointer;
-}
-div>input:hover{
-    border: 2px solid black;
-}
-div>button{
-    height: 35px;
-    width: 120px;
-    margin-left: 20px;
-    font-weight: bold;
     background-color: lightblue;
+}
+.container {
+    width: 350px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 380px;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#todohere{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
     color: black;
+    font-weight: bold;
+    border-radius: 2px;
+}
+button{
+    margin-left: 10px;
+    height: 30px;
+    width: 80px;
+    background: lightgray;
+    color: black;
+    font-weight: bold;
+    outline-style: none;
     border: none;
     cursor: pointer;
-}
-div>button:hover{
-    border: 1px solid black;
+    border-radius: 2px;
 }
